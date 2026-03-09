@@ -80,6 +80,12 @@ Use the repository root files:
 - Feature reuse should be extracted into `pattern`, `ui`, or `core`
 - One-way dependency boundaries between architecture areas
 
+## Example Uses
+
+- "Create a new document-upload feature and place all files in the correct architecture folders."
+- "Refactor this Angular app to move misplaced components and services into core, ui, feature, and pattern."
+- "Review my src/app structure and point out architecture and import-boundary violations."
+
 ## Repository Purpose
 
 This repository is intended to make the same Angular architecture guidance reusable across multiple agent environments instead of rewriting the rules for each tool.
