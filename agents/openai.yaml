@@ -1,0 +1,7 @@
+interface:
+  display_name: "Angular App Architecture"
+  short_description: "Keep Angular apps in a strict src/app structure"
+  default_prompt: "Use $angular-single-app-architecture to place or refactor Angular files into the correct src/app architecture folders and boundaries."
+
+policy:
+  allow_implicit_invocation: true
